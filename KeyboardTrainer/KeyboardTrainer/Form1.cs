@@ -14,12 +14,29 @@ namespace KeyboardTrainer
         {
             InitializeComponent();
             InitializeDatabase();
-
+            this.KeyPreview = true;
             this.Resize += new EventHandler(Form1_Resize);
             Center();
 
             panelUserInput.Visible = true;
             panelTraining.Visible = false;
+            panelTraining.Controls.Add(keyboard1);
+
+            this.KeyPreview = true;  // Перехват нажатий клавиш на уровне формы
+            this.KeyDown += new KeyEventHandler(Form1_KeyDown);
+            this.KeyUp += new KeyEventHandler(Form1_KeyUp);
+        }
+
+        private void Form1_KeyDown(object sender, KeyEventArgs e)
+        {
+            // Делегируем нажатие клавиш компоненту Keyboard
+            keyboard1.OnKeyDown(sender, e);
+        }
+
+        private void Form1_KeyUp(object sender, KeyEventArgs e)
+        {
+            // Делегируем отпускание клавиш компоненту Keyboard
+            keyboard1.OnKeyUp(sender, e);
         }
 
         private void InitializeDatabase()
@@ -77,9 +94,25 @@ namespace KeyboardTrainer
                 return;
             }
 
-            // Скрываем панель ввода имени и отображаем панель тренировки
+            // Скрываем панель ввода имени
             panelUserInput.Visible = false;
+
+            // Отображаем панель тренировки
             panelTraining.Visible = true;
+            panelTraining.BringToFront();
+
+            // Проверяем, добавлен ли компонент на панель
+            if (!panelTraining.Controls.Contains(keyboard1))
+            {
+                panelTraining.Controls.Add(keyboard1);
+            }
+
+
+
+            // Принудительно обновляем интерфейс
+            panelTraining.Refresh();
         }
+
+
     }
 }

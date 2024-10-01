@@ -34,7 +34,10 @@
             login = new Button();
             panelUserInput = new Panel();
             panelTraining = new Panel();
+            keyboard1 = new Keyboard();
+            textBox1 = new TextBox();
             panelUserInput.SuspendLayout();
+            panelTraining.SuspendLayout();
             SuspendLayout();
             // 
             // title
@@ -79,7 +82,6 @@
             // 
             // panelUserInput
             // 
-            panelUserInput.Controls.Add(panelTraining);
             panelUserInput.Controls.Add(login);
             panelUserInput.Controls.Add(title);
             panelUserInput.Controls.Add(username);
@@ -87,28 +89,49 @@
             panelUserInput.Dock = DockStyle.Fill;
             panelUserInput.Location = new Point(0, 0);
             panelUserInput.Name = "panelUserInput";
-            panelUserInput.Size = new Size(1116, 588);
+            panelUserInput.Size = new Size(1292, 588);
             panelUserInput.TabIndex = 4;
             // 
             // panelTraining
             // 
+            panelTraining.Controls.Add(textBox1);
+            panelTraining.Controls.Add(keyboard1);
             panelTraining.Dock = DockStyle.Fill;
             panelTraining.Location = new Point(0, 0);
             panelTraining.Name = "panelTraining";
-            panelTraining.Size = new Size(1116, 588);
+            panelTraining.Size = new Size(1292, 588);
             panelTraining.TabIndex = 4;
+            // 
+            // keyboard1
+            // 
+            keyboard1.BackgroundImageLayout = ImageLayout.Stretch;
+            keyboard1.Location = new Point(5, 185);
+            keyboard1.Name = "keyboard1";
+            keyboard1.Size = new Size(1284, 400);
+            keyboard1.TabIndex = 0;
+            // 
+            // textBox1
+            // 
+            textBox1.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            textBox1.Location = new Point(12, 123);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(1268, 35);
+            textBox1.TabIndex = 1;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1116, 588);
+            ClientSize = new Size(1292, 588);
+            Controls.Add(panelTraining);
             Controls.Add(panelUserInput);
             Name = "Form1";
             Text = "Form1";
             Resize += Form1_Resize;
             panelUserInput.ResumeLayout(false);
             panelUserInput.PerformLayout();
+            panelTraining.ResumeLayout(false);
+            panelTraining.PerformLayout();
             ResumeLayout(false);
         }
 
@@ -120,5 +143,7 @@
         private Button login;
         private Panel panelUserInput;
         private Panel panelTraining;
+        private Keyboard keyboard1;
+        private TextBox textBox1;
     }
 }

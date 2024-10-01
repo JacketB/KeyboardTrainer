@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\dziiva\\Desktop\\Prikoly\\KeyboardTrainer\\KeyboardTrainer\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5B51B1AA-C571-4568-9B6A-F0F41678F76F}|KeyboardTrainer\\KeyboardTrainer.csproj|c:\\users\\dziiva\\desktop\\prikoly\\keyboardtrainer\\keyboardtrainer\\keyboardtrainer\\keyboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B51B1AA-C571-4568-9B6A-F0F41678F76F}|KeyboardTrainer\\KeyboardTrainer.csproj|solutionrelative:keyboardtrainer\\keyboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5B51B1AA-C571-4568-9B6A-F0F41678F76F}|KeyboardTrainer\\KeyboardTrainer.csproj|c:\\users\\dziiva\\desktop\\prikoly\\keyboardtrainer\\keyboardtrainer\\keyboardtrainer\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{5B51B1AA-C571-4568-9B6A-F0F41678F76F}|KeyboardTrainer\\KeyboardTrainer.csproj|solutionrelative:keyboardtrainer\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{5B51B1AA-C571-4568-9B6A-F0F41678F76F}|KeyboardTrainer\\KeyboardTrainer.csproj|c:\\users\\dziiva\\desktop\\prikoly\\keyboardtrainer\\keyboardtrainer\\keyboardtrainer\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B51B1AA-C571-4568-9B6A-F0F41678F76F}|KeyboardTrainer\\KeyboardTrainer.csproj|solutionrelative:keyboardtrainer\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5B51B1AA-C571-4568-9B6A-F0F41678F76F}|KeyboardTrainer\\KeyboardTrainer.csproj|c:\\users\\dziiva\\desktop\\prikoly\\keyboardtrainer\\keyboardtrainer\\keyboardtrainer\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5B51B1AA-C571-4568-9B6A-F0F41678F76F}|KeyboardTrainer\\KeyboardTrainer.csproj|solutionrelative:keyboardtrainer\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B51B1AA-C571-4568-9B6A-F0F41678F76F}|KeyboardTrainer\\KeyboardTrainer.csproj|c:\\users\\dziiva\\desktop\\prikoly\\keyboardtrainer\\keyboardtrainer\\keyboardtrainer\\keyboard.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B51B1AA-C571-4568-9B6A-F0F41678F76F}|KeyboardTrainer\\KeyboardTrainer.csproj|solutionrelative:keyboardtrainer\\keyboard.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B51B1AA-C571-4568-9B6A-F0F41678F76F}|KeyboardTrainer\\KeyboardTrainer.csproj|c:\\users\\dziiva\\desktop\\prikoly\\keyboardtrainer\\keyboardtrainer\\keyboardtrainer\\keyboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5B51B1AA-C571-4568-9B6A-F0F41678F76F}|KeyboardTrainer\\KeyboardTrainer.csproj|solutionrelative:keyboardtrainer\\keyboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,17 +34,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\dziiva\\Desktop\\Prikoly\\KeyboardTrainer\\KeyboardTrainer\\KeyboardTrainer\\Form1.cs",
               "RelativeDocumentMoniker": "KeyboardTrainer\\Form1.cs",
               "ToolTip": "C:\\Users\\dziiva\\Desktop\\Prikoly\\KeyboardTrainer\\KeyboardTrainer\\KeyboardTrainer\\Form1.cs",
               "RelativeToolTip": "KeyboardTrainer\\Form1.cs",
-              "ViewState": "AQIAADIAAAAAAAAAAAAlwFIAAAAJAAAA",
+              "ViewState": "AQIAAGAAAAAAAAAAAAAAAG0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-30T09:14:40.233Z",
               "IsPinned": true,
@@ -40,7 +56,58 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Keyboard.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\dziiva\\Desktop\\Prikoly\\KeyboardTrainer\\KeyboardTrainer\\KeyboardTrainer\\Keyboard.Designer.cs",
+              "RelativeDocumentMoniker": "KeyboardTrainer\\Keyboard.Designer.cs",
+              "ToolTip": "C:\\Users\\dziiva\\Desktop\\Prikoly\\KeyboardTrainer\\KeyboardTrainer\\KeyboardTrainer\\Keyboard.Designer.cs",
+              "RelativeToolTip": "KeyboardTrainer\\Keyboard.Designer.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAkwE8AAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T09:28:31.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\dziiva\\Desktop\\Prikoly\\KeyboardTrainer\\KeyboardTrainer\\KeyboardTrainer\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "KeyboardTrainer\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\dziiva\\Desktop\\Prikoly\\KeyboardTrainer\\KeyboardTrainer\\KeyboardTrainer\\Form1.Designer.cs",
+              "RelativeToolTip": "KeyboardTrainer\\Form1.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T08:24:11.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Keyboard.cs",
+              "DocumentMoniker": "C:\\Users\\dziiva\\Desktop\\Prikoly\\KeyboardTrainer\\KeyboardTrainer\\KeyboardTrainer\\Keyboard.cs",
+              "RelativeDocumentMoniker": "KeyboardTrainer\\Keyboard.cs",
+              "ToolTip": "C:\\Users\\dziiva\\Desktop\\Prikoly\\KeyboardTrainer\\KeyboardTrainer\\KeyboardTrainer\\Keyboard.cs",
+              "RelativeToolTip": "KeyboardTrainer\\Keyboard.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T08:08:21.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Keyboard.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "DocumentMoniker": "C:\\Users\\dziiva\\Desktop\\Prikoly\\KeyboardTrainer\\KeyboardTrainer\\KeyboardTrainer\\Keyboard.cs",
+              "RelativeDocumentMoniker": "KeyboardTrainer\\Keyboard.cs",
+              "ToolTip": "C:\\Users\\dziiva\\Desktop\\Prikoly\\KeyboardTrainer\\KeyboardTrainer\\KeyboardTrainer\\Keyboard.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "RelativeToolTip": "KeyboardTrainer\\Keyboard.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T08:05:23.59Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
               "DocumentMoniker": "C:\\Users\\dziiva\\Desktop\\Prikoly\\KeyboardTrainer\\KeyboardTrainer\\KeyboardTrainer\\Form1.cs",
               "RelativeDocumentMoniker": "KeyboardTrainer\\Form1.cs",

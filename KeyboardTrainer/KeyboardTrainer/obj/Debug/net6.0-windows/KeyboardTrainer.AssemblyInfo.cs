@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KeyboardTrainer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+54b0c0a1ca0ceb176ded205ad20a34c460426c01")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+00d151c69a5e1cdcb8446cb2555d30450ee9a1a1")]
 [assembly: System.Reflection.AssemblyProductAttribute("KeyboardTrainer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KeyboardTrainer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
