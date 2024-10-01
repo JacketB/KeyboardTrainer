@@ -8,6 +8,7 @@ namespace KeyboardTrainer
 {
     public partial class Form1 : Form
     {
+        public string UserName = "";
         private SQLiteConnection sqliteConnection;
 
         public Form1()
@@ -94,23 +95,14 @@ namespace KeyboardTrainer
                 return;
             }
 
+            UserName = username.Text;
+            label2.Text = UserName;
             // Скрываем панель ввода имени
             panelUserInput.Visible = false;
 
             // Отображаем панель тренировки
             panelTraining.Visible = true;
             panelTraining.BringToFront();
-
-            // Проверяем, добавлен ли компонент на панель
-            if (!panelTraining.Controls.Contains(keyboard1))
-            {
-                panelTraining.Controls.Add(keyboard1);
-            }
-
-
-
-            // Принудительно обновляем интерфейс
-            panelTraining.Refresh();
         }
 
 
